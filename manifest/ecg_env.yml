@@ -1,6 +1,6 @@
 #instal using conda
 name:
-  test
+  ecg_env
 channels:
   - anaconda
   #-conda-forge
