@@ -1,6 +1,6 @@
 #instal using conda
 name:
-  ecg_env
+  test
 channels:
   - anaconda
   #-conda-forge
@@ -9,4 +9,5 @@ dependencies:
   - python==3.9.7
   - numpy==1.21.2
   - matplotlib==3.5.1
-  #- pip :
+  - pip :
+    - kaggle==1.5.12
