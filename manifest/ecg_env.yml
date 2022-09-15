@@ -10,4 +10,4 @@ dependencies:
   - numpy==1.21.2
   - matplotlib==3.5.1
   - pip :
-    - kaggle==1.5.12
+    - kaggle==1.5.12 #to read dataset from kaggle
