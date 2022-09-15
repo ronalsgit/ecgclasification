@@ -18,7 +18,7 @@
 
 __pycache__/
 # exclude everything
-files/*
+.gitkeep
 
 # exception to the rule
-#!files/.gitkeep
+#!files/.gitkee
