@@ -21,4 +21,4 @@ __pycache__/
 res/dataset/files/*
 
 # exception to the rule
-#!files/.gitkee
+!files/.gitkeep
