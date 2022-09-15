@@ -18,7 +18,7 @@
 
 __pycache__/
 # exclude everything
-res/dataset/files/*
+res/dataset/files/mitbih_test.csv
 
 # exception to the rule
-!files/.gitkeep
+#!res/dataset/files/*
