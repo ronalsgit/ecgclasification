@@ -3,11 +3,12 @@ name:
   ecg_env
 channels:
   - anaconda
-  #-conda-forge
+-conda-forge
 dependencies:
   - nb_conda_kernels==2.3.1
   - python==3.9.7
   - numpy==1.21.2
   - matplotlib==3.5.1
-  - pip :
-    - kaggle==1.5.12 #to read dataset from kaggle
+  - kaggle==1.5.1
+  #- pip :
+    #- kaggle==1.5.12 #to read dataset from kaggle

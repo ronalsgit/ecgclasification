@@ -15,3 +15,10 @@
 *.aliases
 *.lvlps
 .cache/
+
+__pycache__/
+# exclude everything
+files/*
+
+# exception to the rule
+#!files/.gitkeep
