@@ -18,7 +18,6 @@
 
 __pycache__/
 # exclude everything
-res/dataset/files/*
-
+res/dataset/*
 # exception to the rule
 !res/dataset/files/.gitkeep

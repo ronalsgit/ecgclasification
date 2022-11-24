@@ -1,11 +1,11 @@
-from py.api import zip
-from res.values import value, path
+from src.api import zip
+from res.values import value, dir
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 api = KaggleApi()
 api.authenticate()
 
-def downloadDataset(path = path.FILES, extractOriginalZipFile = False, removeOriginalZipFile = False):
+def downloadDataset(path = dir.FILES, extractOriginalZipFile = False, removeOriginalZipFile = False):
     for file_name in value.FILENAMES:
         api.dataset_download_file(value.DATASET, file_name = file_name , path=path)
         if extractOriginalZipFile:

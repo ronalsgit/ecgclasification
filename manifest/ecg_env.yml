@@ -9,6 +9,6 @@ dependencies:
   - python==3.9.7
   - numpy==1.21.2
   - matplotlib==3.5.1
-  - kaggle==1.5.1
-  #- pip :
-    #- kaggle==1.5.12 #to read dataset from kaggle
+  - kaggle==1.5.2
+  - pip :
+    - phe==1.4.0
